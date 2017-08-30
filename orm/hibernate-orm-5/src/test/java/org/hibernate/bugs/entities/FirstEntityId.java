@@ -9,6 +9,7 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class FirstEntityId implements Serializable {
 	private static final long serialVersionUID = -3906287313997919890L;
+	
 	@Column(name = "firstId")
 	private String firstId;
 

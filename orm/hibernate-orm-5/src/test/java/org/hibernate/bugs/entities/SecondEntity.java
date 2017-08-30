@@ -7,8 +7,6 @@ import javax.persistence.Table;
 @Table(name = "secondEntity")
 public class SecondEntity extends AbstractEmbeddedIdEntity<SecondEntityId> {
 
-	private static final long serialVersionUID = -9176028203802493181L;
-
 	public SecondEntity() {
 	}
 
